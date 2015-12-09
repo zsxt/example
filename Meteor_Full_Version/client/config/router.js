@@ -270,10 +270,6 @@ Router.route('/liveFavicon', function () {
     this.render('liveFavicon');
 });
 
-Router.route('/googleMaps', function () {
-    this.render('googleMaps');
-});
-
 Router.route('/codeEditor', function () {
     this.render('codeEditor');
 });
